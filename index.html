@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQuery Mamurjor IT</title>
+
+    <script src="jquery.min.js"></script>
+</head>
+<body>
+    
+<h1 id="hadi ">hadi is bad boy</h1>
+<button id="show">Hide</button>
+<button id="hide">Show</button>
+
+<script>
+
+    $(document).ready(
+        function(){
+
+
+            $("#show").click(
+                function(){
+                    $(this).hide();
+                }
+            );
+
+        }
+    );
+</script>
+
+
+<script>
+$(document).ready(function(){
+    $("#hide").click(function(){
+        $("#show").show();
+    });
+});
+</script>
+</body>
+</html>
